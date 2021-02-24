@@ -14,25 +14,26 @@ library(dplyr)
     browseURL
 ```
 
-# Algunas curiosidades
+# Nombres más frecuentes en España que tienen un paquete
 
 En el script `nombres.R` de este repositorio he comprobado si hay algún paquete de R que se llama igual que alguno de los 100 nombres más frecuentes por sexos según el [Instituto Nacional de Estadística (INE)](https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177009&menu=resultados&idp=1254734710990#!tabs-1254736195454).
 
-En hombres existen dos:
+En hombres existen dos paquetes:
 
 - JOSE: JavaScript Object Signing and Encryption https://cran.r-project.org/web/packages/jose/index.html
 
 - LUCAS: Package to Download and Create the DB of LUCAS Data Harmonized https://cran.r-project.org/web/packages/lucas/index.html
 
-Aunque también pequeñas modificaciones, como:
+Aunque también pequeñas modificaciones de nombres, como:
 
 - PACO: Procrustes Application to Cophylogenetic Analysis https://cran.r-project.org/web/packages/paco/index.html
 
 - DANI: Design and Analysis of Non-Inferiority Trials https://cran.r-project.org/web/packages/dani/index.html
 
-Y en mujeres:
+Y en mujeres tenemos:
 
 - EVA: Extreme Value Analysis with Goodness-of-Fit Testing https://cran.r-project.org/web/packages/eva/index.html
 
+Si encuentras otro nombre con paquete asociado, házmelo saber.
 
 En este [enlace](https://cran.r-project.org/web/packages/available_packages_by_name.html) puedes encontrar una lista con todos los paquetes de R disponibles en CRAN.
