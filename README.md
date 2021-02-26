@@ -16,13 +16,15 @@ library(dplyr)
 
 # Nombres más frecuentes en España que tienen un paquete
 
-En el script `nombres.R` de este repositorio he comprobado si hay algún paquete de R que se llama igual que alguno de los 100 nombres más frecuentes por sexos según el [Instituto Nacional de Estadística (INE)](https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177009&menu=resultados&idp=1254734710990#!tabs-1254736195454).
+En los scripts de este repositorio he comprobado si hay algún paquete de R que se llama igual que alguno de los 100 nombres más frecuentes por sexos según el [Instituto Nacional de Estadística (INE)](https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177009&menu=resultados&idp=1254734710990#!tabs-1254736195454).
 
-En hombres existen dos paquetes:
+En hombres existen tres paquetes:
 
 - `jose`: JavaScript Object Signing and Encryption https://cran.r-project.org/web/packages/jose/index.html
 
 - `lucas`: Package to Download and Create the DB of LUCAS Data Harmonized https://cran.r-project.org/web/packages/lucas/index.html
+
+- `igoR`: Intergovernmental Organizations Database https://cran.r-project.org/web/packages/igoR/index.html
 
 Aunque también pequeñas modificaciones de nombres, como:
 
@@ -33,6 +35,10 @@ Aunque también pequeñas modificaciones de nombres, como:
 Y en mujeres tenemos:
 
 - `eva`: Extreme Value Analysis with Goodness-of-Fit Testing https://cran.r-project.org/web/packages/eva/index.html
+
+- `SOFIA`: Making Sophisticated and Aesthetical Figures in R https://cran.r-project.org/web/packages/SOFIA/index.html 
+
+Gracias a [este tweet de Jorge López](https://twitter.com/jlopezper/status/1364912098136965121) he añadido a la lista `SOFIA`. Gracias a [este tweet de Diego Hernangómez](https://twitter.com/dhernangomez/status/1364997565607940099) he añadido `igoR`.
 
 Si encuentras otro nombre con paquete asociado, házmelo saber.
 
